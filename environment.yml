@@ -1,5 +1,20 @@
 name: xeus-cling
 channels:
   - conda-forge
+  - defaults
 dependencies:
-  - xeus-cling=0.6.0
+  - jupyter=1.0.0=py_2
+  - jupyter_client=5.2.4=py37_0
+  - jupyter_console=5.2.0=py37_1
+  - jupyter_contrib_core=0.3.3=py_2
+  - jupyter_contrib_nbextensions=0.5.1=py37_0
+  - jupyter_core=4.4.0=py37_0
+  - jupyter_highlight_selected_word=0.2.0=py37_1000
+  - jupyter_latex_envs=1.4.4=py37_1000
+  - jupyter_nbextensions_configurator=0.4.1=py37_0
+  - nlohmann_json=3.6.1=he1b5a44_0
+  - notebook=5.7.8=py37_0
+  - widgetsnbextension=3.4.2=py37_1000
+  - xeus=0.20.0=h4d8c418_1
+  - xeus-cling=0.6.0=he513fc3_1
+
